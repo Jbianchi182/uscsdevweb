@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 05 - Fatorial</title>
+    <title>Exercício 05 - Random</title>
     <link rel="stylesheet" href="..\css\style.css">
     <script src="..\js\script05.js" defer></script>
 </head>
 <body>
-        <div class="container">    
-            <h2>Calculo do fatorial</h2>
-            <p>Digite abaixo um número para calcular o seu fatorial.</p>
-            <label>Digite um número: <input type="number" id="numero"></label><br><br>
-            <button onclick="calcularFatorial()">Calcular</button><br>
-            <p id="resultado"></p>
-            <a href="..\html\index.html">Voltar</a> 
-        </div>
+    <div class="container">    
+        <h2>Random:</h2>
+        <p>O sistema sorteou um número entre 1 e 10. Qual você acha que é?</p>
+        <label>Acho que é: <input type="number" id="palpite"></label><br>
+        <button onclick="checarrandom()">Verificar</button><br>
+        <p id="resultado"></p><br>
+        <button onclick="reiniciarrandom()">Jogar Novamente</button><br><br>
+        <a href="..\html\index.html">Voltar</a> 
+    </div>
+    
 </body>
 </html>
