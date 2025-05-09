@@ -40,3 +40,17 @@ input[type="number"] {
     border: 1px solid #b0bec5;
     border-radius: 4px; 
 }
+
+.calculadora {
+    border: 1px solid #2cb6af; /* Cor e espessura da borda */
+    padding: 15px;         /* Espaçamento interno */
+    border-radius: 8px;    /* Bordas arredondadas (opcional) */
+    background-color: rgb(226, 226, 226); /* Cor de fundo (opcional) */
+    width: fit-content;    /* Ajusta a largura ao conteúdo */
+    margin: 10px auto;     /* Centraliza a div */
+}
+
+#resultado {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding-left: 0;       /* Remove o recuo padrão da lista */
+}
